@@ -98,7 +98,7 @@ Follow these steps to run the portfolio locally on your machine:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/ajupoolat/portfolio.git
+git clone https://github.com/Ajupoolat/My-official-portfolio
 cd portfolio
 ```
 

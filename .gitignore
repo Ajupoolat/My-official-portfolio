@@ -1,0 +1,17 @@
+node_modules/
+.next/
+coverage/
+.DS_Store
+*.log
+
+# Environment files & secrets
+.env*
+.env.local
+!.env.example
+
+# Local Agent configuration
+.agents/
+
+# Design reference / UI templates
+stitch_single_page_portfolio_ui/
+stich_single_page_porfolio_ui/

@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #2B8BFE;
+  --color-brand-hover: #1b74e4;
+  --color-brand-light: #53a2fe;
+  --color-brand-dark: #0f52ba;
+
+  --color-canvas-dark: #0c0d0d;
+  --color-canvas-surface: #141615;
+  --color-canvas-border: #232524;
+  --color-canvas-paper: #F4F1E8;
+
+  --font-display: 'Archivo', sans-serif;
+  --font-sans: 'Archivo', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-mono-code: 'Space Mono', monospace;
+}
+
+body {
+  background-color: #0c0d0d;
+  color: #e5e7eb;
+  font-family: 'Archivo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: 'Archivo', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'Space Mono', monospace;
+}
+
+.tracking-tightest {
+  letter-spacing: -0.04em;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.02em;
+}
+
+.tracking-widestTracking {
+  letter-spacing: 0.15em;
+}
+
+/* Graphic Decor & Panels */
+.paper-panel {
+  background-color: #F4F1E8;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
+.paper-cut-tape {
+  background-color: #2B8BFE;
+  transform: rotate(3deg);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.badge-tilt {
+  transform: rotate(-4deg);
+}
+
+.hero-polaroid {
+  transform: rotate(-2deg);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-polaroid:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+.grid-border-glow:hover {
+  border-color: rgba(43, 139, 254, 0.5);
+}
+
+::selection {
+  background-color: #2B8BFE;
+  color: #0c0d0d;
+}
+
+/* Lenis Smooth Scroll Configuration */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Custom Dark-Tech Scrollbar (Option 1)
+   ========================================================================== */
+
+/* Modern Standard (Firefox) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2e2d transparent;
+}
+
+/* WebKit (Chrome, Edge, Safari, Brave, Opera) */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262928;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2B8BFE;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Modal-Specific Bespoke Scrollbar */
+.modal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #2e3230 #141615;
+}
+
+.modal-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-track {
+  background: #141615;
+  border-left: 1px solid #232524;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb {
+  background: #2e3230;
+  border-radius: 9999px;
+  border: 1px solid #141615;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #2B8BFE;
+}

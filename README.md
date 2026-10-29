@@ -7,7 +7,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Lenis](https://img.shields.io/badge/Lenis-Smooth_Scroll-FF5D01?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 <p align="center">
   <strong>Turning business requirements into practical, production-ready web solutions.</strong>

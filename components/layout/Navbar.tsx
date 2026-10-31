@@ -83,8 +83,8 @@ export default function Navbar() {
           </a>
           {/* Distinct Resume Action */}
           <a
-            href="/Ajvadu_FullStack_Resume.pdf"
-            download="Ajvadu_FullStack_Resume.pdf"
+            href="/Ajvadu Resume.pdf"
+            download="Ajvadu Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-full border border-[#2B8BFE]/60 hover:border-[#2B8BFE] bg-[#2B8BFE]/10 hover:bg-[#2B8BFE] hover:text-[#0c0d0d] text-[#2B8BFE] text-xs font-mono-code uppercase tracking-wider transition-all inline-flex items-center gap-1.5"

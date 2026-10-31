@@ -16,7 +16,7 @@
   A high-performance digital portfolio showcasing commercial engineering case studies, verified production contributions, and interactive web architecture.
 </p>
 
-[Live Demo](https://github.com/ajupoolat) · [Explore Case Studies](#featured-case-studies) · [Get in Touch](#contact--connect)
+[Live Demo](https://ajvadu-portfolio.vercel.app) · [Explore Case Studies](#featured-case-studies) · [Get in Touch](#contact--connect)
 
 </div>
 

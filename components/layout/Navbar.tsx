@@ -83,7 +83,7 @@ export default function Navbar() {
           </a>
           {/* Distinct Resume Action */}
           <a
-            href="/Ajvadu Resume.pdf"
+            href="#resume"
             download="Ajvadu Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"

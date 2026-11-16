@@ -59,8 +59,8 @@ export default function ExperienceSection() {
           </div>
           <div>
             <a
-              href="./Ajvadu Resume.pdf"
-              download="Ajvadu Resume.pdf"
+              href="./Ajvadu-CV.pdf"
+              download="Ajvadu-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#2B8BFE] text-[#2B8BFE] hover:bg-[#2B8BFE] hover:text-[#0c0d0d] text-xs font-mono-code uppercase tracking-wider transition-all"
